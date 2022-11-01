@@ -26,7 +26,7 @@ int main() {
         } else if (user_age < 25) {
             std::cout << "You are too young for my grandchild." << std::endl;
         } else {
-            std::cout << "You are well suited for my grandchild."
+            std::cout << "You are right for my grandchild."
                       << std::endl;
         }
     } catch (std::invalid_argument) {
